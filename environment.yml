@@ -4,15 +4,17 @@ channels:
   - https://repo.anaconda.com/pkgs/main
   - https://repo.anaconda.com/pkgs/r
 dependencies:
+dependencies:
   - python=3.11
+  - scikit-learn
+  - pytorch
+  - torchvision
   - umap-learn
   - jupyterlab
   - matplotlib
   - pandas
-  - torchvision
   - ipywidgets
   - seaborn
   - pandoc
   - notebook
   - pmdarima
-prefix: /opt/anaconda3/envs/scc403
