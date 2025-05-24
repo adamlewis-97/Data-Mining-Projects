@@ -10,7 +10,7 @@ Each task includes commented Jupyter notebooks, evaluation metrics (silhouette s
 
 The notebooks expect three data sources, each in its own subfolder under `data/`:
 
-### Basel Climate Data (Task 1)
+### Basel Climate Data 
 
 1. Go to <https://www.meteoblue.com/en/weather/archive/export>.
 2. Select **Basel, Switzerland** as the location.
@@ -19,7 +19,7 @@ The notebooks expect three data sources, each in its own subfolder under `data/`
 5. Click **Download CSV**.
 6. Rename the file to `basel_weather_2010_2019.csv` and place it in `data/climate/`.
 
-2. **Food-101**  
+### Food-101 
    - **Source**: Kaggle “Food-101” dataset  
    - **Download link**: https://www.kaggle.com/datasets/dansbecker/food-101  
    - **Place unzipped files** under:
@@ -28,7 +28,7 @@ The notebooks expect three data sources, each in its own subfolder under `data/`
      data/food101/meta/
      ```
 
-3. **Oxford-IIIT Pets**  
+### Oxford-IIIT Pets  
    - **Source**: University of Oxford “IIIT Pets”  
    - **Download link**: https://www.robots.ox.ac.uk/~vgg/data/pets/  
    - **Place unzipped files** under:
