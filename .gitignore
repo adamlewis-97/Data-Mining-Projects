@@ -184,3 +184,5 @@ data/
 *.pt
 *.h5
 .Rproj.user
+*.Rproj
+
