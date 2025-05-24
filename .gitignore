@@ -172,3 +172,14 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# ------------------------------------------------------------------
+# Project-specific ignores
+# Raw or downloaded datasets
+data/
+*/data/
+
+# Saved models / artefacts
+*.pkl
+*.pt
+*.h5
